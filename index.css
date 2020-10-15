@@ -1,0 +1,123 @@
+body{
+	background-image: url("luxfoncom_2852_20150105_1539160055.jpg");
+}
+header{
+	margin-top:300px;
+}
+.dws-menu *{
+	margin:0;
+	padding:0;
+}
+.dws-menu ul,
+.dws-menu ol{
+	list-style:none;
+}
+.dws-menu > ul{
+	display:flex;
+	justify-content: center;
+}
+.dws-menu > ul li a{
+	display: block;
+	 background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    
+	padding: 15px 30px 15px 40px;
+	font-size:14px;
+	color: #454547;
+	text-decoration: none;
+	text-transform:uppercase;
+	transition:all 0.3s ease;
+}
+.dws-menu > ul li{
+position: relative;
+border-right: 1px solid #c7c8ca;
+}	
+.dws-menu > ul li > a i.fa{
+	position: absolute;
+	top:15px;
+	left:12px;
+	font-size:18px;
+}
+.dws-menu >ul li: first-child{
+	border-left: 1px solid #b2b3b5
+}
+.dws-menu > ul li: last-child{
+	border-right: 1px solid #babbbb;
+}
+.dws-menu li a:hover{
+	background: #454547;
+	color:#ffffff;
+	box-shadow: 1px 5px 10px -5px black;
+	transition:all 0.3s ease;
+}
+/*Sub menu*/
+.dws-menu li ul{
+	position: absolute;
+	min-width:150px;
+	display: none;
+}
+.dws-menu li> ul li{
+	border: 1px solid #c7c8ca
+}
+.dws-menu li >ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #e4e4e5;
+}
+.dws-menu li > ul li ul {
+	position: absolute;
+	right:-150px;
+	top:0;
+}
+.dws-menu li:hover> ul{
+	display: block;
+}
+.dws-wrapper{
+	max-width: 650px;
+	margin:0 auto;
+}
+ul.accordion{
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	padding:0;
+}
+ul.accordion li{
+	width: 50px;
+	overflow: hidden;
+	padding:1px 1px 0;
+	cursor:pointer;
+	display: block;
+	-webkit-box-shadow: 1px 3px 15px #7e807e;
+	-moz-box-shadow: 1px 3px 15px #7e807e; 
+	box-shadow: 1px 3px 15px #7e807e;
+	-webkit-box-shadow:all 1.5s time;
+	-moz-box-shadow: all 1.5s time;
+	-ms-transition: all 1.5s time;
+	-o-transition: all 1.5s time;
+	transition:all 1.5s time;
+}
+ul.accordion img{
+	width: 550px;
+}
+ul.accordion li:hover{
+	width: 550px;
+	-webkit-box-shadow: inset hoff voff blur color;
+	-moz-box-shadow: inset hoff voff blur color;
+	box-shadow: inset hoff voff blur color;
+	-webkit-box-shadow:all 1s;
+	-moz-box-shadow: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition:all 1s;
+}
+ul.accordion li:nth-child(4){
+	width:550px;
+}
+ul.accordion li:nth-child(4){
+	width: 550px;
+}
+ul.accordion li:nth-child(4):hover{
+	width: 550px;
+}
